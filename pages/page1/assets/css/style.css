@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FDF2C5;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 1);
+}
+/*#FC98A4 pink
+    #FDF2C5 - yellow
+*/
+
+body{
+    background-color:#B1E1A3;
+}
+
+header.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+    .tab{
+        position: absolute;
+        background-color: #FC98A4;
+        border-radius: 15px;
+        width: 300px;
+        height: 170px;
+    }
+
+    .title{
+        position: absolute;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    h2{
+        cursor: pointer;
+    }
+
+}
+
+section.hero{
+    .player{
+        position: absolute;
+        left: 20%;
+        top: 28%;
+
+        img{
+            width: 490px;
+        }
+    }
+
+    .container{
+
+        .blob{
+            position: absolute;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            left: 28%;
+            top: 38%;
+            height: 420px;
+            width: 950px;
+            background-color: #FC98A4;
+            border-radius: 70px;
+
+
+                .name{
+
+                    padding-left: 400px;
+                    h1.firstName{
+                        font-size: 95px;
+                        padding-top: 20px;
+                        padding-right: 50px;
+                    }
+                    h1.lastName{
+                        font-size: 70px;
+                        padding-left: 210px;
+                        padding-right: 50px;
+                    }
+                }
+
+                .description{
+                    position: absolute;
+                    top: 53%;
+                    p{
+                        font-size: 1.5rem;
+                        padding-right: 50px;
+                        padding-left: 20px;
+                        text-align: right;
+                    }
+                }
+
+            
+        }
+    }
+}
+

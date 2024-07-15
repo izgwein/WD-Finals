@@ -1,0 +1,120 @@
+/*#FC98A4 pink
+    #FDF2C5 - yellow
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FDF2C5;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 0;
+    section.one{    
+        background-color: #B1E1A3;
+        height: 100vh;
+        img.notebook{
+            height: 100%;
+            margin-left: -80px;
+        }
+    }
+    
+    section.two{
+        background-color: #FC98A4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .text{
+            position: relative;
+            width: 600px;
+            h2.top{
+                margin-bottom: -20px;
+            }
+
+            h1{
+                font-size: 120px;
+                
+            }
+        }
+    }
+    
+}
+
+#codingSkills{
+    grid-column: 2 / 4 ;
+    grid-row: 2 / 3;
+    padding-left: 30px;
+
+    .label{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+
+        p{
+            font-size: 2rem;
+        }
+    }
+
+    h2{
+        font-size: 2rem;
+        color:#fbf8f8;
+    }
+
+    .prog{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    flex-direction: row;
+    grid-column: 2 / span 3 ;
+    grid-row: 3 / 4;
+
+    .container {
+        background-color: rgb(192, 192, 192);
+        width: 20%;
+        height: 10%;
+        border-radius: 15px;
+        border-color: transparent;
+
+        .bar1 {
+            background-color:rgb(238, 182, 191);
+            text-align: center;
+            font-size: 100px;
+            border-radius: 15px;
+            width: 55px;
+        }
+        .bar2 {
+            background-color:rgb(238, 182, 191);
+            text-align: center;
+            font-size: 100px;
+            border-radius: 15px;
+            width: 54px;
+        }
+
+        .bar3 {
+            background-color:rgb(238, 182, 191);
+            text-align: center;
+            font-size: 100px;
+            border-radius: 15px;
+            width: 59px;
+        }
+
+        .bar4 {
+            background-color:rgb(238, 182, 191);
+            text-align: center;
+            font-size: 100px;
+            border-radius: 15px;
+            width: 25px;
+        }
+    }
+
+}
+}
+
