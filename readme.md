@@ -6,10 +6,10 @@
 <div align="center">
   <a href="https://github.com/izgwein/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/macaron.png" alt="macaron" width="130" height="130">
+    <img src="./assets/img/macaron.png" alt="macaron" width="200" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">RESUME</h3>
+  <h3 align="center">Website for Finals</h3>
 </div>
 <!-- TODO: Make a short description -->
 
