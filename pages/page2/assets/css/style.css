@@ -159,24 +159,75 @@ header.return{
 
 }
 }
+@property --a {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: true;
+  }
 
 .others{
-    h2{
-        font-size: 3rem;
-        padding-left: 40px;
-        color: #B1E1A3;
-    }
+    overflow: hidden;
 
+    h2{
+        color:#B1E1A3;
+        font-size: 2rem;
+    }
     .other-container{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        padding-top: 30px;
+        padding-left: 10px;
+    img {
+        --w: 150px; /* image width*/
+        --b: 10px; /* border thickness */
+        --g: -10px; /* the gap */
+        --c: #FDF2C5;
+        
+        width: var(--w);
+        padding: calc(1.5*var(--w));
+        margin: calc(var(--b) + var(--g) - 1.5*var(--w));
+        border-radius: 50%;
+        --_p:calc(var(--w)/2 + var(--g) + var(--b)) 
+          at calc(50% + 25%*cos(var(--a))) calc(75% - 25%*sin(var(--a)));
+        background: radial-gradient(var(--_p),
+            #0000    calc(100% - var(--b) - 1px),
+            var(--c) calc(100%  - var(--b)));
+        transform-origin: 50% 75%;
+        rotate: calc(var(--a) - 90deg);
+        clip-path: circle(var(--_p));
+        cursor: pointer;
+        --a: 0deg;
+        transition: --a .5s;
+      }
+      img.alt {
+        --_p:calc(var(--w)/2 + var(--g) + var(--b)) 
+          at calc(50% - 25%*cos(var(--a))) calc(75% - 25%*sin(var(--a)));
+        rotate: calc(90deg - var(--a));
+      }
+      img:hover {
+        --a: 90deg;
+      }
+
+      .mid{
+        margin-top: -340px;
+      }
     }
 
-    p{
-        font-size: 1.4rem;
-        padding-top: 40px;
+    .hobby-text{
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 37px;
+        width: 600px;
+        flex-direction: row;
+        top: 100%;
+
+        p{
+            font-size: 2rem;
+        }
     }
+    
 }
 

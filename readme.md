@@ -114,4 +114,5 @@ WD-ProjectName
 | Scrollbar designing | Used for designing scrollbar when needed. | https://www.digitalocean.com/community/tutorials/css-scrollbars |
 | Button designs | Used for buttons. | https://getcssscan.com/css-buttons-examples |
 | Font style | Used to design the font. | https://fonts.google.com/selection/embed|
+| Circular Reveal Hover Effect | Used for hover effect on page 2. | https://codepen.io/t_afif/pen/wvNbXrE |
 
