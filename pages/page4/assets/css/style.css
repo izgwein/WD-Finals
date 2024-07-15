@@ -9,6 +9,18 @@ body {
     font-family: Arial, sans-serif;
 }
 
+header.return{
+    padding-left: 2rem;
+            padding-top: 2rem;
+    a{
+        text-decoration: none;
+        i{
+            color: white;
+            font-size: 3rem;
+        }
+    }
+}
+
 section.title {
     display: flex;
     justify-content: center;
@@ -51,6 +63,14 @@ section.contents {
         border-radius: 50%;
         transform: rotate(10deg);
         cursor: pointer;
+    }
+
+    .container a{
+        width: 17%;
+        object-fit: cover;
+        padding: 20px;
+        border-radius: 100px;
+        transition: border-radius 0.3s ease, transform 0.5s ease;
     }
 }
 

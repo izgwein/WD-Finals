@@ -11,10 +11,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 32vw;
+    width: 24vw;
     position: absolute;
-    left: 31.9%;
-    top: 10.5%;
+    left: 37.5%;
+    top: 13%;
 }
 
 .main img {
@@ -26,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 35%;
+    left: 40%;
     top: 20%;
 }
 
@@ -70,8 +70,8 @@ body {
 
 .btn {
     position: absolute;
-    left: 37%;
-    top: 85%;
+    left: 42%;
+    top: 70%;
     width: 350px;
     height: 60px;
     padding: 15px;

@@ -59,11 +59,11 @@ section.hero{
         }
 
         .plyr{
-            z-index: 5;
+            z-index: 2;
         }
         .me{
             position: absolute;
-            z-index: 0;
+            z-index: -1;
             top: 1%;
             left: 5%;
             width: 220px;
@@ -83,6 +83,7 @@ section.hero{
             width: 950px;
             background-color: #FC98A4;
             border-radius: 70px;
+            z-index: -2;
 
 
                 .name{
