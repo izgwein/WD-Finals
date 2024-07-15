@@ -6,15 +6,12 @@
 <div align="center">
   <a href="https://github.com/izgwein/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/macaron.png" alt="macaron" width="130" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">RESUME</h3>
 </div>
 <!-- TODO: Make a short description -->
-<div align="center">
-  Short Description. (Optional)
-</div>
 
 <br />
 
@@ -57,20 +54,17 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project is a compilation of what I have learning throughout the course. It consists of building an HTML website and designing it using CSS and Javascript.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Vanilla Javascript
+- Animation using Javascript
+- Animation using CSS Keyframes
+- Layouting and Designing
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +111,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Scrollbar designing | Used for designing scrollbar when needed. | https://www.digitalocean.com/community/tutorials/css-scrollbars |
+| Button designs | Used for buttons. | https://getcssscan.com/css-buttons-examples |
+| Font style | Used to design the font. | https://fonts.google.com/selection/embed|
+

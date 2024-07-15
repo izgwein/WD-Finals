@@ -5,12 +5,23 @@
 
 body{
     background-color: #FC98A4;
-    a{
-        position: absolute;
-        h2{
-            font-size: 5rem;
-    }
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
+
+header.return{
+    position: absolute;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    a{
+        text-decoration: none;
+        i{
+            color: white;
+            font-size: 3rem;
+        }
+    }
 }
 
 
@@ -203,3 +214,4 @@ section.container4{
 
     }
 }
+

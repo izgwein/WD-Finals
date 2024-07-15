@@ -4,10 +4,27 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 body{
     background-color: #FDF2C5;
+}
+
+header.return{
+    position: absolute ;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    a{
+        text-decoration: none;
+        i{
+            color: white;
+            font-size: 3rem;
+        }
+    }
 }
 
 .container{
@@ -22,6 +39,22 @@ body{
             height: 100%;
             margin-left: -80px;
         }
+
+        img.me{
+            position: absolute;
+            height: 60%;
+            top: 16%;
+            left: 9%;
+            transform: rotate(-15deg);
+        }
+
+        h1{
+            position: absolute;
+            font-size: 1.9rem;
+            top: 78%;
+            left: 13.5%;
+            transform: rotate(-15deg);
+        }
     }
     
     section.two{
@@ -34,12 +67,15 @@ body{
             position: relative;
             width: 600px;
             h2.top{
-                margin-bottom: -20px;
+                margin-bottom: -10px;
             }
 
             h1{
                 font-size: 120px;
-                
+                color: #B1E1A3;
+            }
+            p{
+                font-size: 1.3rem;
             }
         }
     }
@@ -50,6 +86,12 @@ body{
     grid-column: 2 / 4 ;
     grid-row: 2 / 3;
     padding-left: 30px;
+
+    h1.skills{
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 3rem;
+    }
 
     .label{
         display: grid;
@@ -69,52 +111,72 @@ body{
     }
 
     .prog{
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    flex-direction: row;
-    grid-column: 2 / span 3 ;
-    grid-row: 3 / 4;
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        flex-direction: row;
+        grid-column: 2 / span 3 ;
+        grid-row: 3 / 4;
 
-    .container {
-        background-color: rgb(192, 192, 192);
-        width: 20%;
-        height: 10%;
-        border-radius: 15px;
-        border-color: transparent;
+        .container {
+            background-color: rgb(192, 192, 192);
+            width: 20%;
+            height: 10%;
+            border-radius: 15px;
+            border-color: transparent;
 
-        .bar1 {
-            background-color:rgb(238, 182, 191);
-            text-align: center;
-            font-size: 100px;
-            border-radius: 15px;
-            width: 55px;
-        }
-        .bar2 {
-            background-color:rgb(238, 182, 191);
-            text-align: center;
-            font-size: 100px;
-            border-radius: 15px;
-            width: 54px;
-        }
+            .bar1 {
+                background-color:#FDF2C5;
+                text-align: center;
+                font-size: 100px;
+                border-radius: 15px;
+                width: 55px;
+            }
+            .bar2 {
+                background-color:#FDF2C5;
+                text-align: center;
+                font-size: 100px;
+                border-radius: 15px;
+                width: 54px;
+            }
 
-        .bar3 {
-            background-color:rgb(238, 182, 191);
-            text-align: center;
-            font-size: 100px;
-            border-radius: 15px;
-            width: 59px;
-        }
+            .bar3 {
+                background-color:#FDF2C5;
+                text-align: center;
+                font-size: 100px;
+                border-radius: 15px;
+                width: 59px;
+            }
 
-        .bar4 {
-            background-color:rgb(238, 182, 191);
-            text-align: center;
-            font-size: 100px;
-            border-radius: 15px;
-            width: 25px;
+            .bar4 {
+                background-color:#FDF2C5;
+                text-align: center;
+                font-size: 100px;
+                border-radius: 15px;
+                width: 25px;
+            }
         }
-    }
 
 }
+}
+
+.others{
+    h2{
+        font-size: 3rem;
+        padding-left: 40px;
+        color: #B1E1A3;
+    }
+
+    .other-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    p{
+        font-size: 1.4rem;
+        padding-top: 40px;
+    }
 }
 
