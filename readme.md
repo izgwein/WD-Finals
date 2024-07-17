@@ -12,7 +12,7 @@
   <h3 align="center">Website for Finals</h3>
 </div>
 <!-- TODO: Make a short description -->
-
+  <p>My final project features six pages, including a landing page, built with HTML, CSS, and JavaScript. It showcases designing and layouting with interactive elements.</p>
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
